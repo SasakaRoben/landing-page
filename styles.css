@@ -145,7 +145,7 @@ ul
 }
 .quote
 {
-    font-size: 36px;
+    font-size: 30px;
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
@@ -154,6 +154,26 @@ ul
 {
     align-self: flex-end;
     margin-right: 47px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 36px;
+}
+
+.section-4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.section-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: blue;
+    padding: 0px 20px;
+    border-radius: 10px;
+    /* border: 2px solid yellow; */
 }
