@@ -95,6 +95,8 @@ button
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    display: flex;
+    text-align: center;
 }
 
 ul
@@ -105,8 +107,10 @@ ul
 .content
 {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 0px;
 }
 
 .content img
@@ -123,3 +127,33 @@ ul
     flex-direction: column;
 }
 
+.section-3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote-content
+{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.author
+{
+    align-self: flex-end;
+    margin-right: 47px;
+    font-size: 30px;
+    font-weight: 36px;
+}
