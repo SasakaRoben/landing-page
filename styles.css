@@ -65,3 +65,18 @@ ul {
     display: flex;
     gap: 16px;
 }
+
+/* Section 3 */
+.section3 {
+    margin-top: 32px;
+}
+
+p {
+    margin: 0;
+}
+
+.author {
+    font-style: italic;
+    text-align: right;
+    font-weight: bold;
+}
