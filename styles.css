@@ -2,12 +2,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border: 2px solid red; */
 }
 
+/* Section 1 */
 .section1 {
     display: flex;
     flex-direction: column;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 16px;
 }
 
@@ -29,8 +31,37 @@ ul {
     gap: 16px;
 }
 
-img {
+.section1 img {
     width: 300px;
     height: auto;
     border-radius: 5px;
+}
+
+/* Section 2 */
+
+.section2 {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.card {
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
 }
