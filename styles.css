@@ -71,7 +71,7 @@ ul {
     margin-top: 32px;
 }
 
-p {
+p, h3 {
     margin: 0;
 }
 
@@ -79,4 +79,13 @@ p {
     font-style: italic;
     text-align: right;
     font-weight: bold;
+}
+
+/* Section 4 */
+
+.section4 {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 32px;
 }
